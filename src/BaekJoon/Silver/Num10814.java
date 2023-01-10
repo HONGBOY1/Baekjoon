@@ -15,8 +15,7 @@ public class Num10814 {
             arr[i][0] = sc.next();	// 나이
             arr[i][1] = sc.next();	// 이름
         }
-
-
+        
         Arrays.sort(arr, new Comparator<String[]>() {
             // 나이순으로 정렬
             @Override
