@@ -17,7 +17,4 @@ public class Num26489 {
         System.out.println(cnt);
     }
 
-    public static void main(String[] args) throws Exception {
-        new Main().solution();
-    }
 }
