@@ -15,8 +15,8 @@ public class Num1268 {
         }
         for(int i=0; i<N; i++){
             for(int j=0; j<5; j++){
-                for(int k=j+1; k<5;k++){
-                    if(box[i][j]==box[i][k]){
+                for(int k=0; k<N;k++){
+                    if(box[i][j]==box[k][j] && i!=k){
                         cnt[k]++;
                     }
                 }

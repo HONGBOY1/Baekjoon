@@ -9,7 +9,6 @@ public class Num1152 {
 
         if(str.isEmpty()) System.out.println("0");
         else System.out.println(str.split(" ").length);
-     int 준홍이_바보_멍청이_똥개;
         /*
            String str = sc.nextLine();
             int cnt=0;

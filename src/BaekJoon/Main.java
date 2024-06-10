@@ -1,17 +1,24 @@
 package BaekJoon;
 
-
+import java.io.*;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args)  {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        for(int i=0; i<n; i++){
-            int num = sc.nextInt();
-            System.out.println(num +" "+num);
 
+        String str = sc.nextLine();
+        String dab="";
+        switch (str){
+            case "NLCS" : dab="North London Collegiate School";
+                break;
+            case "BHA" : dab="Branksome Hall Asia";
+                break;
+            case "KIS" : dab="Korea International School";
+                break;
+            case "SJA" : dab="St. Johnsbury Academy";
+                break;
         }
+        System.out.println(dab);
     }
-
 }
